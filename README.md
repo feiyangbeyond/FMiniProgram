@@ -22,24 +22,28 @@
 
 导入项目，初始化云开发，不会的看原帖子教程
 后台配置域名不需要填抖音的，填自己的，没有则填写图片里的
-![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-0.png)
+[![sPazND.png](https://s3.ax1x.com/2021/01/04/sPazND.png)](https://imgchr.com/i/sPazND)
 
 ## 上传php文件并修改
 
 如果都用我的域名则跳过这步
+php文件地址：https://github.com/oddfar/FMiniProgram/php
 
 - 上传“index.php”（刷步数文件）
+  
   * 下载刷步数软件(下载地址在上面)，并挂在服务器上，**把php文件里面的api地址替换成自己的**，修改源码里的链接
-  * ![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-1.png)
+  * [![sPajHK.png](https://s3.ax1x.com/2021/01/04/sPajHK.png)](https://imgchr.com/i/sPajHK)
 - 上传“q.php”（下载并返回视频链接文件）
+  
   * 修改源码里的链接
-  * ![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-2.png)
+  * [![sPaXB6.png](https://s3.ax1x.com/2021/01/04/sPaXB6.png)](https://imgchr.com/i/sPaXB6)
   * 更新云函数文件
-  * ![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-3.png)
+  * [![sPaxAO.png](https://s3.ax1x.com/2021/01/04/sPaxAO.png)](https://imgchr.com/i/sPaxAO)
 - 上传“del.php”（删除下载视频文件）
+  
   * 默认删除下载10分钟后的视频，加个定时任务访问此文件，否则下载的视频不会被删除，导致服务器磁盘爆满
 
-最后上传发布即可！
+最后上传发布小程序即可，“php”目录不上传！
 
 # 源码地址
 
