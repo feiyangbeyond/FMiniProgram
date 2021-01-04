@@ -22,7 +22,7 @@
 
 导入项目，初始化云开发，不会的看原帖子教程
 后台配置域名不需要填抖音的，填自己的，没有则填写图片里的
-![后台配置](http://x-0)
+![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-0.png)
 
 ## 上传php文件并修改
 
@@ -30,12 +30,12 @@
 
 - 上传“index.php”（刷步数文件）
   * 下载刷步数软件(下载地址在上面)，并挂在服务器上，**把php文件里面的api地址替换成自己的**，修改源码里的链接
-  * ![后台配置](http://x-1)
+  * ![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-1.png)
 - 上传“q.php”（下载并返回视频链接文件）
   * 修改源码里的链接
-  * ![后台配置](http://x-2)
+  * ![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-2.png)
   * 更新云函数文件
-  * ![后台配置](http://x-3)
+  * ![后台配置](https://github.com/oddfar/FMiniProgram/blob/master/pics/w-3.png)
 - 上传“del.php”（删除下载视频文件）
   * 默认删除下载10分钟后的视频，加个定时任务访问此文件，否则下载的视频不会被删除，导致服务器磁盘爆满
 
