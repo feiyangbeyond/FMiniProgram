@@ -28,7 +28,7 @@
 ## 上传php文件并修改
 
 如果都用我的域名则跳过这步
-php文件地址：https://github.com/oddfar/FMiniProgram/php
+php文件地址：https://github.com/oddfar/FMiniProgram/tree/master/php
 
 - 上传“index.php”（刷步数文件）
   
@@ -55,7 +55,6 @@ github：**[https://github.com/oddfar/FMiniProgram](https://github.com/oddfar/FM
 服务器用的腾讯云学生机，请大佬们手下留情，二次开发和整理资料不易，觉得有用的，请免费评一下分！
 
 体验小程序
-
 [![小程序](https://s3.ax1x.com/2021/01/05/sFBTI0.jpg)](https://imgchr.com/i/sFBTI0)
 
 
