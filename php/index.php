@@ -13,13 +13,9 @@ $password  =  $_GET["password"];
 $steps = $_GET["steps"];
 
 
-
-
-$url = "http://42.192.149.71:8080/mi?phoneNumber=$phoneNumber&password=$password&steps=$steps";
+//ip改成自己的，没有的话用我域名接口
+$url = "http://ip地址:端口/mi?phoneNumber=$phoneNumber&password=$password&steps=$steps";
 
 //echo '{"code":101,"message":"手机号错误（暂只支持大陆11位手机号）"}';
 $result = my_encoding(file_get_contents($url),'UTF-8');
 echo($result);
-
-
-// http://42.192.149.71:8080/mi?phoneNumber=18888888888&password=123456&steps=19999
