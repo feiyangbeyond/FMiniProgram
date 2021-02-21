@@ -33,11 +33,11 @@ php文件地址：https://github.com/oddfar/FMiniProgram/tree/master/php
 - 上传“index.php”（刷步数文件）
   
   * 下载刷步数软件(下载地址在最上面)，并挂在服务器上，**把php文件里面的api地址替换成自己的**，修改源码里的链接
-  * ![修改链接](https://s3.ax1x.com/2021/01/04/sPajHK.png)
+  * ![修改链接](https://s3.ax1x.com/2021/01/04/sPaXB6.png)
 - 上传“q.php”（下载并返回视频链接文件）
   
   * 修改源码里的链接
-  * ![修改链接](https://s3.ax1x.com/2021/01/04/sPaXB6.png)
+  * ![修改链接](https://s3.ax1x.com/2021/01/04/sPajHK.png)
   * 更新云函数文件
   * ![上传](https://s3.ax1x.com/2021/01/04/sPaxAO.png)
 - 上传“del.php”（删除下载视频文件）
